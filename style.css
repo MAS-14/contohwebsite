@@ -247,7 +247,7 @@ a:hover {
     padding: 8rem 3rem; /* Padding responsif */
     /* MENGGUNAKAN FOTO DARI LINK YANG ANDA BERIKAN */
     /* Pastikan URL ini valid dan dapat diakses publik */
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://i.ibb.co/qY7tSG3H/Screenshot-2025-07-29-115305.png');
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://imgur.com/a/7KfiMA4');
     background-repeat: no-repeat; /* Jangan ulangi gambar */
     background-position: center center; /* Pusatkan gambar */
     background-size: contain; /* Pastikan gambar tidak terpotong */
