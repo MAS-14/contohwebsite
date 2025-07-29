@@ -246,7 +246,11 @@ a:hover {
     text-align: center;
     padding: 8rem 3rem; /* Padding responsif */
     /* MENGGUNAKAN FOTO DARI LINK YANG ANDA BERIKAN */
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://i.ibb.co/x8sNv7pw/Whats-App-Image-2025-04-28-at-20-54-05.jpg') no-repeat center center/cover;
+    /* Pastikan URL ini valid dan dapat diakses publik */
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://i.ibb.co/qY7tSG3H/Screenshot-2025-07-29-115305.png');
+    background-repeat: no-repeat; /* Jangan ulangi gambar */
+    background-position: center center; /* Pusatkan gambar */
+    background-size: contain; /* Pastikan gambar tidak terpotong */
     color: #ffffff;
     border-radius: 0.625rem; /* (10px) */
     box-shadow: 0 0.3125rem 1.25rem rgba(0, 0, 0, 0.3); /* Bayangan gelap */
@@ -747,6 +751,9 @@ section h3::after {
     /* Konten utama di bawah header */
     .banner {
         padding: 4rem 1.5rem;
+        min-height: 200px; /* Tambahkan tinggi minimum agar gambar selalu terlihat */
+        /* Pastikan background-size: contain; tetap berlaku di sini */
+        background-size: contain; /* Ulangi di sini untuk memastikan prioritas */
     }
 
     .banner h1 {
