@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi Coding - MA Ma'arif 14 Sukorame</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome untuk ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header di Setiap Halaman -->
+    <header class="main-header">
+        <div class="header-content">
+            <!-- Bagian Kiri Header: Logo dan Nama Lembaga -->
+            <div class="logo-container">
+                <!-- Placeholder untuk Logo Madrasah -->
+                <img src="https://placehold.co/50x50/007bff/ffffff?text=LOGO" alt="Logo Madrasah" class="logo">
+                <span class="nama-lembaga">MA Ma'arif 14 Sukorame</span>
+            </div>
+            
+            <!-- Hamburger Menu Toggle (Terlihat di semua ukuran layar) -->
+            <button class="menu-toggle" aria-label="Buka Menu Navigasi">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <!-- Navigasi Utama (Desktop) dan Pencarian (Desktop) dihapus dari sini -->
+            <!-- Mereka sekarang hanya ada di dalam mobile-menu-overlay -->
+        </div>
+
+        <!-- Overlay Menu Universal (Tersembunyi secara default) -->
+        <div class="mobile-menu-overlay">
+            <button class="close-menu" aria-label="Tutup Menu Navigasi">
+                <i class="fas fa-times"></i>
+            </button>
+            <!-- Navigasi dan Pencarian untuk Overlay -->
+            <nav class="main-nav overlay-nav">
+                <ul>
+                    <li><a href="index.html" class="nav-link">Beranda</a></li>
+                    <li><a href="gallery.html" class="nav-link">Galeri</a></li>
+                    <li><a href="materi.html" class="nav-link">Materi</a></li>
+                </ul>
+            </nav>
+            <div class="search-container overlay-search">
+                <input type="text" id="search-input" placeholder="Cari di website..." aria-label="Kolom Pencarian">
+                <button id="search-button" aria-label="Tombol Cari"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Konten Halaman Materi -->
+    <main class="main-content">
+        <h3>Materi Pembelajaran Coding</h3>
+
+        <!-- Bagian Materi HTML -->
+        <section class="materi-item" id="materi-html">
+            <h4>1. HTML (HyperText Markup Language)</h4>
+            <div class="materi-content-wrapper">
+                <img src="https://placehold.co/400x250/e0e0e0/333333?text=Contoh+Kode+HTML" alt="Contoh Kode HTML">
+                <div class="materi-text">
+                    <p>HTML adalah tulang punggung dari setiap halaman web. Ini digunakan untuk menyusun konten, seperti teks, gambar, video, dan formulir, menggunakan berbagai elemen (tag). Memahami HTML adalah langkah pertama dan paling fundamental dalam pengembangan web.</p>
+                    <p>Dengan HTML, Anda dapat membuat judul, paragraf, daftar, tautan, dan banyak lagi. Ini adalah bahasa yang relatif mudah dipelajari dan sangat intuitif untuk pemula.</p>
+                    <a href="https://www.youtube.com/embed/VIDEO_ID_HTML_DASAR" target="_blank" class="btn-secondary">Tonton Video Tutorial HTML</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Materi CSS -->
+        <section class="materi-item" id="materi-css">
+            <h4>2. CSS (Cascading Style Sheets)</h4>
+            <div class="materi-content-wrapper">
+                <img src="https://placehold.co/400x250/e0e0e0/333333?text=Contoh+Kode+CSS" alt="Contoh Kode CSS">
+                <div class="materi-text">
+                    <p>CSS digunakan untuk memberikan gaya pada halaman web yang dibuat dengan HTML. Dengan CSS, Anda dapat mengontrol warna, font, tata letak, spasi, dan banyak aspek visual lainnya. Ini memungkinkan Anda mengubah tampilan website dari yang polos menjadi menarik dan profesional.</p>
+                    <p>Pelajari cara menggunakan selector, properti, dan nilai CSS untuk membuat desain responsif dan estetis.</p>
+                    <a href="https://www.youtube.com/embed/VIDEO_ID_CSS_DASAR" target="_blank" class="btn-secondary">Tonton Video Tutorial CSS</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Materi JavaScript -->
+        <section class="materi-item" id="materi-javascript">
+            <h4>3. JavaScript</h4>
+            <div class="materi-content-wrapper">
+                <img src="https://placehold.co/400x250/e0e0e0/333333?text=Contoh+Kode+JS" alt="Contoh Kode JavaScript">
+                <div class="materi-text">
+                    <p>JavaScript adalah bahasa pemrograman yang membuat website menjadi interaktif. Dengan JavaScript, Anda bisa menambahkan fitur dinamis seperti animasi, validasi formulir, game, dan interaksi pengguna yang kompleks. Ini adalah bahasa esensial untuk pengembangan web modern.</p>
+                    <p>Materi ini akan membahas dasar-dasar sintaks, manipulasi DOM, event handling, dan konsep-konsep penting lainnya.</p>
+                    <a href="https://www.youtube.com/embed/VIDEO_ID_JS_DASAR" target="_blank" class="btn-secondary">Tonton Video Tutorial JavaScript</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Materi Plugin Acode -->
+        <section class="materi-item" id="materi-acode-plugin">
+            <h4>4. Plugin Aplikasi Acode</h4>
+            <div class="materi-content-wrapper">
+                <img src="https://placehold.co/400x250/e0e0e0/333333?text=Acode+Plugin" alt="Contoh Plugin Acode">
+                <div class="materi-text">
+                    <p>Acode adalah editor kode yang powerful untuk perangkat Android. Untuk memaksimalkan penggunaannya, Anda bisa memanfaatkan berbagai plugin yang tersedia. Materi ini akan memandu Anda tentang cara menginstal dan menggunakan plugin-plugin penting di Acode untuk meningkatkan produktivitas coding Anda di perangkat mobile.</p>
+                    <p>Pelajari tentang plugin seperti AcodeX (terminal), Python Runner, dan lainnya yang akan memudahkan Anda dalam mengembangkan proyek.</p>
+                    <a href="https://www.youtube.com/embed/VIDEO_ID_ACODE_PLUGIN" target="_blank" class="btn-secondary">Tonton Video Tutorial Plugin Acode</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer di Setiap Halaman -->
+    <footer class="main-footer">
+        <p>&copy; 2025 MA Ma'arif 14 Sukorame. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

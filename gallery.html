@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri - MA Ma'arif 14 Sukorame</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome untuk ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header di Setiap Halaman -->
+    <header class="main-header">
+        <div class="header-content">
+            <!-- Bagian Kiri Header: Logo dan Nama Lembaga -->
+            <div class="logo-container">
+                <!-- Placeholder untuk Logo Madrasah -->
+                <img src="https://placehold.co/50x50/007bff/ffffff?text=LOGO" alt="Logo Madrasah" class="logo">
+                <span class="nama-lembaga">MA Ma'arif 14 Sukorame</span>
+            </div>
+            
+            <!-- Hamburger Menu Toggle (Terlihat di semua ukuran layar) -->
+            <button class="menu-toggle" aria-label="Buka Menu Navigasi">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <!-- Navigasi Utama (Desktop) dan Pencarian (Desktop) dihapus dari sini -->
+            <!-- Mereka sekarang hanya ada di dalam mobile-menu-overlay -->
+        </div>
+
+        <!-- Overlay Menu Universal (Tersembunyi secara default) -->
+        <div class="mobile-menu-overlay">
+            <button class="close-menu" aria-label="Tutup Menu Navigasi">
+                <i class="fas fa-times"></i>
+            </button>
+            <!-- Navigasi dan Pencarian untuk Overlay -->
+            <nav class="main-nav overlay-nav">
+                <ul>
+                    <li><a href="index.html" class="nav-link">Beranda</a></li>
+                    <li><a href="gallery.html" class="nav-link">Galeri</a></li>
+                    <li><a href="materi.html" class="nav-link">Materi</a></li>
+                </ul>
+            </nav>
+            <div class="search-container overlay-search">
+                <input type="text" id="search-input" placeholder="Cari di website..." aria-label="Kolom Pencarian">
+                <button id="search-button" aria-label="Tombol Cari"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Konten Halaman Galeri -->
+    <main class="main-content">
+        <section class="gallery-section">
+            <h3>Galeri Kegiatan Kelas Programming</h3>
+            
+            <!-- Bagian Foto Kegiatan -->
+            <div class="gallery-photos">
+                <h4>Foto-foto Kegiatan</h4>
+                <div class="photo-grid">
+                    <img src="https://placehold.co/300x200/cccccc/333333?text=Foto+Kelas+1" alt="Kegiatan Kelas Programming 1">
+                    <img src="https://placehold.co/300x200/cccccc/333333?text=Foto+Siswa+2" alt="Siswa Belajar Coding 2">
+                    <img src="https://placehold.co/300x200/cccccc/333333?text=Foto+Diskusi+3" alt="Diskusi Kelompok 3">
+                    <img src="https://placehold.co/300x200/cccccc/333333?text=Foto+Presentasi+4" alt="Presentasi Proyek 4">
+                    <!-- Tambahkan lebih banyak foto di sini -->
+                </div>
+            </div>
+
+            <!-- Bagian Video Kegiatan -->
+            <div class="gallery-videos">
+                <h4>Video Kegiatan</h4>
+                <div class="video-grid">
+                    <!-- Ganti VIDEO_ID dengan ID video YouTube yang sebenarnya -->
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Video Kegiatan 1"></iframe>
+                    <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Video Kegiatan 2"></iframe>
+                    <!-- Tambahkan lebih banyak video di sini -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer di Setiap Halaman -->
+    <footer class="main-footer">
+        <p>&copy; 2025 MA Ma'arif 14 Sukorame. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
